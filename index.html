@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beatnik - Frontend Development Assignment</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+</head>
+<body>
+
+<div class="main-wrap">
+    <!-- Main menu -->
+    <section class="menu">
+        <nav class="navbar navbar-expand-md navbar-bg pt-0 pb-0">
+            <a class="navbar-brand" href="#">
+                <img src="img/footer-logo.png" alt="awards logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Claims</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rewards</a>
+                    </li>
+                    <!-- Another design -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Group insurance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-right">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-sm btn-primary" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-headphones" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <select data-placeholder="Choose a Language...">
+                            <option value="Afrikaans">AF</option>
+                            <option value="Albanian">SQ</option>
+                            <option value="Arabic">AR</option>
+                            <option value="Armenian">HY</option>
+                            <option value="Basque">EU</option>
+                            <option value="Bengali">BN</option>
+                            <option value="Bulgarian">BG</option>
+                            <option value="Catalan">CA</option>
+                            <option value="Cambodian">KM</option>
+                            <option value="Chinese (Mandarin)">ZH</option>
+                            <option value="Croatian">HR</option>
+                            <option value="Czech">CS</option>
+                            <option value="Danish">DA</option>
+                            <option value="Dutch">NL</option>
+                            <option value="English" selected>EN</option>
+                            <option value="Estonian">ET</option>
+                            <option value="Fiji">FJ</option>
+                            <option value="Finnish">FI</option>
+                            <option value="French">FR</option>
+                            <option value="Georgian">KA</option>
+                            <option value="German">DE</option>
+                            <option value="Greek">EL</option>
+                            <option value="Gujarati">GU</option>
+                            <option value="Hebrew">HE</option>
+                            <option value="Hindi">HI</option>
+                        </select>
+
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Main slider -->
+    <!-- Slider -->
+    <section class="main-slider">
+        <div class="slider-wrap">
+            <div class="slider-container">
+                <!--            data-interval="true"-->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: url(./img/slide-1.jpg);">
+                            <!-- <img src="./img/slide-1.jpeg" class="d-block w-100" alt="..."> -->
+                            <div class="item-content">
+                                <div class="title">Family Protection Plans</div>
+                                <ul class="img-card">
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Savings Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon1.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Savings</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Care Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon2.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Early Cash</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Child Protection Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon3.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Children</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Pension Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon4.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Retirement</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Surokhha Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon5.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Investment</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="carousel-item " style="background-image: url(./img/slide-1.jpg);">
+                            <!-- <img src="./img/slide-2.jpeg" class="d-block w-100" alt="..."> -->
+                            <div class="item-content">
+                                <div class="title">Early Cash Plans</div>
+                                <ul class="img-card">
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Savings Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon1.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Savings</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Care Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon2.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Early Cash</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Child Protection Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon3.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Children</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Pension Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon4.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Retirement</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Surokhha Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon5.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Investment</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url(./img/slide-1.jpg);">
+                            <!-- <img src="./img/slide-3.jpeg" class="d-block w-100" alt="..."> -->
+                            <div class="item-content">
+                                <div class="title">Children Plans</div>
+                                <ul class="img-card">
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Savings Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon1.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Savings</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Care Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon2.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Early Cash</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Child Protection Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon3.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Children</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Pension Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon4.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Retirement</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Surokhha Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon5.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Investment</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url(./img/slide-1.jpg);">
+                            <!-- <img src="./img/slide-3.jpeg" class="d-block w-100" alt="..."> -->
+                            <div class="item-content">
+                                <div class="title">Retirement Plans</div>
+                                <ul class="img-card">
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Savings Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon1.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Savings</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Care Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon2.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Early Cash</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Child Protection Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon3.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Children</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Pension Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon4.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Retirement</div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="card">
+                                            <div class="card-head">
+                                                <span>Surokhha Plan</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="img/slider-icon5.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="footer">Investment</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>

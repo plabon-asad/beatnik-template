@@ -1,0 +1,149 @@
+:root {
+    --p-color: #e87722;
+    --blue-color: #0404ab;
+    --yellow-color: #fffc01;
+    --tomato-color: #f7941e;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-wrap {
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Nav-bar design */
+a.navbar-brand img {
+    height: 40px;
+}
+
+a.nav-link {
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+a.nav-link.btn.btn-sm.btn-primary {
+    background-color: var(--p-color);
+    border: 0;
+    color: white;
+    padding: 5px 12px;
+}
+
+ul.navbar-nav.nav-right li a {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+ul.navbar-nav.nav-right li a i {
+    color: #e87722;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+ul.navbar-nav.nav-right li select {
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 15px;
+    border: 1px solid white;
+    font-size: 12px;
+}
+
+/* Slider design */
+.carousel-item {
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.main-slider .carousel-item .item-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.carousel-item .item-content {
+    /*text-align: right;*/
+}
+
+.carousel-item .item-content .title {
+    font-size: 35px;
+    text-shadow: 0 0 black;
+    margin-bottom: 45px;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    color: var(--blue-color);
+}
+
+.carousel-item .item-content .title:before {
+    position: absolute;
+    content: '';
+    background-image: url("../img/slider-text-bg.png");
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Slider image card design */
+ul.img-card {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;
+}
+
+ul.img-card li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 0;
+    height: 17px;
+}
+
+ul.img-card li a {
+    display: inline-block;
+    font-size: 7px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+ul.img-card li a.card .card-body img {
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.img-card li a.card .card-head {
+    background-color: blue;
+    color: white;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    padding: 5px;
+}
+
+ul.img-card li a.card .card-body {
+    padding: 5px;
+}
+
+ul.img-card li .footer {
+    color: var(--yellow-color);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
