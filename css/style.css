@@ -81,7 +81,7 @@ ul.navbar-nav.nav-right li select {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 50vh;
 }
 
 .main-slider .carousel-item .item-content {
@@ -169,16 +169,15 @@ ul.img-card li .footer {
 
 /* Highlight design */
 .highlight-wrap {
-    height: 300px;
+    min-height: 300px;
     /*background: tomato;*/
     /* position: relative; */
 }
 
 .highlight-container {
     position: relative;
-    height: 200px;
+    min-height: 40px;
     max-width: 900px;
-    /*background: black;*/
     margin: 0 auto;
 }
 
@@ -186,6 +185,10 @@ ul.img-card li .footer {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -35px;
 }
 
 .search-box .search .row .col-auto button {
@@ -222,6 +225,49 @@ ul.search-ul li a {
 ul.search-ul li a i {
     color: var(--p-color);
     font-size: 12px;
+}
+
+.highlight-fav {
+    margin: 25px 0;
+}
+
+.highlight-fav .row .col-md-4 .item {
+    /*background-color: var(--cal-primary-10);*/
+    /*color: var(--cal-primary);*/
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    clear: both;
+    overflow: hidden;
+}
+
+.highlight-fav .row .col-md-4 .item img {
+    width: 40px;
+    float: left;
+}
+.highlight-fav .row .col-md-4 .item span {
+    float: left;
+    padding-left: 10px;
+    font-size: 10px;
+    display: block;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.bg-cal-primary {
+    background-color: var(--cal-primary-10);
+    color: var(--cal-primary);
+}
+
+.bg-cal-secondary {
+    background-color: var(--cal-secondary-10);
+    color: var(--cal-secondary);
+}
+.bg-cal-tartiary {
+    background-color: var(--cal-tartiary-10);
+    color: var(--cal-tartiary);
 }
 
 

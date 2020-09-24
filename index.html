@@ -108,7 +108,7 @@
         <div class="slider-wrap">
             <div class="slider-container">
                 <!--            data-interval="true"-->
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active" style="background-image: url(./img/slide-1.jpg);">
                             <!-- <img src="./img/slide-1.jpeg" class="d-block w-100" alt="..."> -->
@@ -377,51 +377,77 @@
     </section>
 
     <!-- Highlight -->
-    <div class="highlight-wrap">
-        <div class="highlight-container">
-            <div class="search-box">
-                <div class="search">
-                    <div class="row no-gutters">
-                        <div class="col-auto">
-                            <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right"
-                                    type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                        <div class="col">
-                            <div class="row no-gutters">
-                                <div class="col-md-9">
-                                    <input class="form-control border-secondary border-right-0 rounded-0"
-                                           type="search" id="example-search-input4"
-                                           placeholder="What you need?"
-                                    >
-                                </div>
-                                <div class="col-md-3">
-                                    <ul class="search-ul box-shadow">
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-user"></i>
-                                                <div class="title">Products</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-user"></i>
-                                                <div class="title">Products</div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-user"></i>
-                                                <div class="title">Products</div>
-                                            </a>
-                                        </li>
-                                    </ul>
+    <div class="highlight-wrap bg-white">
+        <div class="container" style="position: relative">
+            <div class="highlight-container">
+                <div class="search-box">
+                    <div class="search">
+                        <div class="row no-gutters">
+                            <div class="col-auto">
+                                <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right"
+                                        type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                            <div class="col">
+                                <div class="row no-gutters">
+                                    <div class="col-md-9">
+                                        <input class="form-control border-secondary border-right-0 rounded-0"
+                                               type="search" id="example-search-input4"
+                                               placeholder="What you need?"
+                                        >
+                                    </div>
+                                    <div class="col-md-3">
+                                        <ul class="search-ul box-shadow">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    <div class="title">Products</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    <div class="title">Products</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user"></i>
+                                                    <div class="title">Products</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="highlight-fav">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item bg-cal-primary">
+                            <img src="img/calculator.png" alt="">
+                            <span>Premium Calculator</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item bg-cal-secondary">
+                            <img src="img/policy-info.png" alt="">
+                            <span>Policy Information</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item bg-cal-tartiary">
+                            <img src="img/my-transection.png" alt="">
+                            <span>My Transaction</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
