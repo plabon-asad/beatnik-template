@@ -612,6 +612,47 @@ ul.list-unstyled li a {
     cursor: pointer;
 }
 
+/* Advice design */
+.advice-row .left-col .item, .advice-row .right-col .item {
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+.advice-row .left-col .item {
+    background-image: url(../img/yellow-g.png);
+}
+
+.advice-row .right-col .item {
+    background-image: url(../img/green-g.png);
+    min-height: 252px;
+}
+
+.advice-row .right-col .item img {
+    width: 40px;
+}
+
+button.btn-white {
+    background: transparent;
+    border: 2px solid white;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.advice-row .right-col a {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+
 
 
 
