@@ -83,6 +83,23 @@ ul.navbar-nav.nav-right li select {
     font-size: 12px;
 }
 
+.navbar-toggler {
+    position: relative;
+}
+
+.navbar-toggler:before {
+    position: absolute;
+    content: '';
+    background-image: url(../img/menu-bar.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    left: 16px;
+    top: 9px;
+}
+
 /* Slider design */
 .carousel-item {
     background-color: #cccccc;
@@ -651,6 +668,56 @@ button.btn-white {
     text-decoration: none;
     margin-top: 15px;
     display: inline-block;
+}
+
+/* News and Events */
+.news-event-wrap .news-event-container .prod-header h4 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.news-card {
+    border-radius: 10px !important;
+}
+
+.news-card img {
+    border-radius: 5px;
+}
+
+.news-card .card-body h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.news-card .card-body p {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.list-card .card-header {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hori-list {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.hori-list .hori-left img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.hori-list .hori-right {
+    padding-left: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.hori-list .hori-right p {
+    font-size: 12px;
+    padding-left: 10px;
 }
 
 
