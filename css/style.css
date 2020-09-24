@@ -3,10 +3,33 @@
     --blue-color: #0404ab;
     --yellow-color: #fffc01;
     --tomato-color: #f7941e;
+    --cal-primary: #206175;
+    --cal-secondary: #b8409e;
+    --cal-tartiary: #990012;
+    --cal-primary-10: #20617526;
+    --cal-secondary-10: #b8409e24;
+    --cal-tartiary-10: #9900121f;
 }
 
 * {
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Bootstrap reset */
+.form-control:focus {
+    border-color: #66afe9 !important;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 10px -6px #777 !important;
+    -moz-box-shadow: 0 3px 10px -6px #777 !important;
+    box-shadow: 0 3px 10px -6px #777 !important;
+}
+
+/* Global css */
+.box-shadow {
+    -webkit-box-shadow: 0 3px 10px -6px #777;
+    -moz-box-shadow: 0 3px 10px -6px #777;
+    box-shadow: 0 3px 10px -6px #777;
+
 }
 
 .main-wrap {
@@ -90,7 +113,7 @@ ul.navbar-nav.nav-right li select {
     background-image: url("../img/slider-text-bg.png");
     left: 0;
     right: 0;
-    top:0;
+    top: 0;
     bottom: 0;
     z-index: -1;
 }
@@ -143,6 +166,64 @@ ul.img-card li .footer {
     margin-top: 10px;
     text-align: center;
 }
+
+/* Highlight design */
+.highlight-wrap {
+    height: 300px;
+    /*background: tomato;*/
+    /* position: relative; */
+}
+
+.highlight-container {
+    position: relative;
+    height: 200px;
+    max-width: 900px;
+    /*background: black;*/
+    margin: 0 auto;
+}
+
+.search-box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-box .search .row .col-auto button {
+    background-color: #e87722;
+    color: white;
+    border: 0;
+    border-radius: 5px !important;
+    font-weight: lighter;
+}
+
+.search-box .search .row .col input {
+    border: 0;
+}
+
+ul.search-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.search-ul li {
+    display: inline-block;
+}
+
+ul.search-ul li a {
+    font-size: 9px;
+    text-align: center;
+    display: block;
+    color: #555;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+ul.search-ul li a i {
+    color: var(--p-color);
+    font-size: 12px;
+}
+
 
 
 
